@@ -54,12 +54,12 @@ $ sudo apt install cmake
 3. Compile and install the Livox-SDK2:
 
 ```shell
-$ git clone https://github.com/Livox-SDK/Livox-SDK2.git
-$ cd ./Livox-SDK2/
-$ mkdir build
-$ cd build
-$ cmake .. && make -j
-$ sudo make install
+ git clone https://github.com/Livox-SDK/Livox-SDK2.git
+ cd ./Livox-SDK2/
+ mkdir build
+ cd build
+ cmake .. && make -j
+ sudo make install
 ```
 
 **Note :**  
@@ -116,7 +116,7 @@ Livox SDK2 includes three samples, which are "livox_lidar_quick_start", "logger"
 Connect to the Lidar(s), and run the program '**livox_lidar_quick_start**' :
 
 ```shell
-$ cd samples/livox_lidar_quick_start && ./livox_lidar_quick_start ../../../samples/livox_lidar_quick_start/[config file]
+ cd samples/livox_lidar_quick_start && ./livox_lidar_quick_start ../../../samples/livox_lidar_quick_start/[config file]
 ```
 
 ### In Windows 10
